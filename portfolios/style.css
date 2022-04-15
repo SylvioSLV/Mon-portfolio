@@ -7,7 +7,8 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(img/bg1.jpg);
+    background-color: #686464;
+   /* background-image: url(img/bg1.jpg);*/
     background-size: cover;
     background-position: center;
 }
@@ -35,7 +36,7 @@ nav{
 }
 
 span{
-    color: #F5DF4E;
+    color: #f5ca09;
 }
 
 nav ul li{
@@ -52,7 +53,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #F5DF4E;
+    color: #f5ca09;
     transition: .4s;
 }
 
@@ -80,18 +81,18 @@ nav ul li a:hover{
 
 h1{
     color: white;
-    font-size: 90px;
+    font-size: 65px;
     font-weight: 800;
 }
 
 h3{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 50px;
 }
 
 h4{
-    color: gray;
+    color: rgb(252, 252, 252);
     letter-spacing: 2px;
     font-size: 30px;
 }
@@ -118,7 +119,7 @@ h4{
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: #F5DF4E;
+    background-color: #f5ca09;
     color: white;
     box-shadow: 0px 0px 5px black, 0px 0px 15px #858585;
     top: 6px;
@@ -152,7 +153,7 @@ h4{
 
 .about-text h2{
     color: white;
-    font-size: 80px;
+    font-size: 65px;
     text-transform: capitalize;
 }
 
@@ -173,7 +174,7 @@ h4{
 }
 
 button{
-    background-color: #F5DF4E;
+    background-color: #f5ca09;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -185,5 +186,5 @@ button{
 
 button:hover{
     background-color: transparent;
-    border: 2px solid #F5DF4E;
+    border: 2px solid #f5ca09;
 }
