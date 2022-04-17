@@ -7,7 +7,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-color: #686464;
+    background-color: #F5DF4E;
     background-size: cover;
     background-position: center;
 }
@@ -35,7 +35,7 @@ nav{
 }
 
 span{
-    color: #F5DF4E;
+    color: rgb(41, 41, 41);
 }
 nav a{
     text-decoration: none;
@@ -50,17 +50,17 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-weight: 600;
+    font-weight:600;
     text-transform: capitalize;
 }
 
 nav ul li a:hover{
-    color: #F5DF4E;
+    color: rgb(41, 41, 41);
     transition: .4s;
 }
 
 .btn{
-    background-color: #F5DF4E;
+    background-color: rgb(41, 41, 41);
     color: white ;
     text-decoration: none;
     border: 1px solid transparent;
@@ -82,23 +82,24 @@ nav ul li a:hover{
 }
 
 h1{
-    color: white;
-    font-size: 65px;
-    font-weight: 800;
+    color: rgb(41, 41, 41);
+    font-size: 5em;
+    font-weight: 600;
 }
 
 h3{
-    color: white;
+    color: rgb(41, 41, 41);
     font-size: 30px;
     margin-bottom: 50px;
+    font-weight: 400;
 }
 
 h4{
-    color: rgb(252, 252, 252);
+    color: rgb(41, 41, 41);
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 2em;
+    font-weight: 300;
 }
-
 .newsletter form{
     width: 380px;
     max-width: 100%;
@@ -109,7 +110,7 @@ h4{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid gray;
+    border: 2px solid rgb(41, 41, 41);
     border-radius: 30px;
     outline: none;
 }
@@ -121,9 +122,9 @@ h4{
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: #f5ca09;
-    color: white;
-    box-shadow: 0px 0px 5px black, 0px 0px 15px #858585;
+    background-color: #F5DF4E;
+    color: rgb(41, 41, 41);
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(41, 41, 41);
     top: 6px;
     right: 6px;
     cursor: pointer;
@@ -132,7 +133,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #191919;
+    background-color: white;
 }
 
 .about img{
@@ -154,21 +155,22 @@ h4{
 }
 
 .about-text h2{
-    color: white;
+    color: rgb(41, 41, 41);
     font-size: 65px;
     text-transform: capitalize;
 }
 
 .about-text h5{
-    color: white;
+    color: rgb(41, 41, 41);
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 2em;
     margin-bottom: 25px;
     text-transform: capitalize;
+    margin-left: 0px;
 }
 
 .about-text p{
-    color: #b8b8b8;
+    color: rgb(41, 41, 41);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -188,13 +190,13 @@ button{
 
 button:hover{
     background-color: transparent;
-    color: white;
-    border: 2px solid #F5DF4E;
+    color: rgb(41, 41, 41);
+    border: 2px solid rgb(41, 41, 41);
     cursor: pointer;
 }
 
 .projets{
-    background: #F5DF4E;
+    background: #fcfcfc;
     width: 100%;
     padding: 100px 0px;
 }
@@ -218,15 +220,15 @@ button:hover{
     height: 490px;
     width: 360px;
     background: #000000;
-    border-radius: 15px;
+    border-radius: 0px 0px  15px 0px;
     margin: 20px;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-h5{
-    color: #F5DF4E;
+h6{
+    color: white;
     font-size: 23px;
     font-weight: 200;
     margin: 10px;
@@ -239,7 +241,7 @@ h5{
 }
 
 .pra img{
-    border-radius: 15px;
+    border-radius: 0px 0px  15px 0px;
     width: 200px;
 }
 
@@ -256,8 +258,8 @@ h5{
     color: black;
     text-decoration: none;
     border: 2px solid transparent;
-    font-weight: bold;
-    padding: 8px 30px;
+    font-weight: 500;
+    padding: 1px 30px;
     border-radius: 30px;
     transition: .4s;
 }
@@ -266,4 +268,84 @@ h5{
     background-color: transparent;
     color: white;
     border: 2px solid #F5DF4E;
+}
+
+.niveau{
+    height: 80vh;
+    max-width: 85%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.progress-sm{
+    height: 0.6em !important;
+}
+
+.mb-4{
+    margin-bottom: 1.5em !important;
+}
+
+.progress{
+    display: flex;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: .75em;
+    background-color: #686464;
+    border-radius: 0.35em;
+    border-top-left-radius: 0.35em;
+    border-top-right-radius: 0.35em;
+    border-bottom-left-radius: 0.35em;
+    border-bottom-right-radius: 0.35em;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.line{
+    width: 50%;
+}
+
+.line-left{
+    margin-right: 20px;
+}
+
+.line-right{
+    margin-left: 20px;
+}
+
+.bar{
+    font-weight: 500 !important;
+    text-align: left !important;
+    margin-bottom: 0.5em !important;
+}
+
+.float-end{
+    float: right;
+    color: #191919;
+}
+
+.progress-bar{
+    background-color: #F5DF4E;
+}
+
+.cv span{
+    margin-top: 100px;
+    background-color: rgb(41, 41, 41);
+    color: white ;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: 400;
+    padding: 10px 25px;
+}
+
+.cv span:hover{
+    color: #191919;
+    transition: 0.5s;
+    background-color: #F5DF4E;
+    cursor: pointer;
 }
