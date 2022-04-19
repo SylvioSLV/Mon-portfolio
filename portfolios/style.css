@@ -7,6 +7,23 @@
     box-sizing: border-box;
 }
 
+/*stylisation du scrollbar*/
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #F5DF4E);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(rgb(41, 41, 41), transparent);
+    border-radius: 6px;
+    transition: .5s;
+}
+
 .hero{
     height: 100vh;
     width: 100%;
