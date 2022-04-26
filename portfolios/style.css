@@ -35,6 +35,7 @@ body{
 
 nav{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
@@ -191,6 +192,7 @@ h4{
     max-width: 95%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
@@ -244,6 +246,7 @@ button:hover{
 .information{
     height: 30vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     margin-left: 2%;
@@ -288,6 +291,7 @@ button:hover{
 
 .box{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     min-height: 500px;
@@ -350,11 +354,8 @@ h6{
 
 .niveau{
     height: 50vh;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
 }
 
 .progress-sm{
@@ -373,7 +374,7 @@ h6{
     border-radius: 0.35em;
 }
 
-.container{
+.container{f
     display: flex;
     margin-bottom: 50px;
 }
@@ -405,6 +406,10 @@ h6{
     background-color: #F5DF4E;
 }
 
+.cv{
+    text-align: center;
+}
+
 .cv span{
     margin-top: 100px;
     background-color: rgb(41, 41, 41);
@@ -428,6 +433,7 @@ h6{
     width: 100%;
     height: 500px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background: rgb(0,0,0,0.7)url(./img/me.jpg);
@@ -626,4 +632,12 @@ footer{
     text-decoration: none;
     color: #fddb00;
     transition: .5s;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .hero nav ul li{
+        display: none;
+    }
 }
