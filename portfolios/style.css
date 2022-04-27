@@ -7,11 +7,6 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-}
-
 /*stylisation du scrollbar*/
 
 ::-webkit-scrollbar{
@@ -24,8 +19,7 @@ body{
 }
 
 .hero{
-    height: 100vh;
-    width: 100%;
+    padding-bottom: 10px;
     background-color: #F5DF4E;
 }
 
@@ -131,45 +125,6 @@ h4{
     text-transform: uppercase !important;
 }
 
-.newsletter form{
-    width: 380px;
-    right: 40%;
-    left: 40%;
-    max-width: 100%;
-    position: relative;
-}
-
-.newsletter form input:first-child{
-    display: inline-block;
-    width: 100%;
-    border: none;
-    padding: 16px 130px 15px 15px;
-    border-radius: 30px;
-    background-color: #e9e9e9;
-    outline: none;
-}
-
-.newsletter form input:last-child{
-    position: absolute;
-    display: inline-block;
-    outline: none;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: #161616;
-    color: rgb(255, 255, 255);
-    top: 5px;
-    right: 5px;
-    cursor: pointer;
-}
-
-.newsletter form input:last-child:hover{
-    background-color: #F5DF4E;
-    color: #191919;
-    font-weight: 500;
-    transition: .4s;
-}
-
 /*Section A propos*/
 
 .about{
@@ -244,13 +199,11 @@ button:hover{
 /*Secion Information*/
 
 .information{
-    height: 30vh;
+    margin: 50px 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 .text-gray{
@@ -276,16 +229,12 @@ button:hover{
 
 .projets{
     background: #e9e9e9;
-    width: 100%;
-    height: 70vh;
-    padding: 10px 0px;
+    padding: 40px 0px;
 }
 
 .title  h2{
     color: #191919;
     font-size: 75px;
-    width: 1130px;
-    margin: 30px auto;
     text-align: center;
 }
 
@@ -305,13 +254,6 @@ button:hover{
     position: relative;
     overflow: hidden;
     text-align: center;
-}
-
-h6{
-    color: white;
-    font-size: 23px;
-    font-weight: 200;
-    margin: 10px;
 }
 
 .card i{
@@ -353,9 +295,8 @@ h6{
 /*Section Compétences*/
 
 .niveau{
-    height: 50vh;
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: 50px auto;
 }
 
 .progress-sm{
@@ -385,10 +326,6 @@ h6{
 
 .line-left{
     margin-right: 20px;
-}
-
-.line-right{
-    margin-left: 20px;
 }
 
 .bar{
@@ -430,10 +367,8 @@ h6{
 /* Section Engagez-moi */
 
 .cover{
-    width: 100%;
-    height: 500px;
     display: flex;
-    flex-wrap: wrap;
+    padding: 10% 20px ;
     align-items: center;
     justify-content: center;
     background: rgb(0,0,0,0.7) url(./img/me.jpg);
@@ -450,6 +385,7 @@ h6{
 }
 
 .hire-me p{
+    text-align: center;
     font-size: 2.3em;
     font-weight: 600;
     color: white;
@@ -475,8 +411,7 @@ h6{
 /*Section Contact*/
 
 .contact-me{
-    width: 100%;
-    height: 50vh;
+    padding: 50px 0;
     background-color: #F5DF4E;
 }
 
@@ -546,6 +481,7 @@ h6{
 }
 
 h2{
+    margin-bottom: 20px;
     font-size: 2.3em;
     font-weight: 600;
     color: #191919;
@@ -561,14 +497,13 @@ input{
     background-color: #F5DF4E;
     padding: 10px;
     border-radius: 0;
-    border: none;
+    border: 0;
     border-bottom: 2px solid rgb(41, 41, 41);
 }
 
 textarea{
     background-color: #F5DF4E;
-    border: none;
-    border-radius: 0; 
+    border: 0;
     border-bottom: 2px solid rgb(41, 41, 41);
 }
 
@@ -592,12 +527,9 @@ textarea{
 
 footer{
     background-color: #161616;
-    max-width: 100%;
-    padding: 60px 0px;
-    height: 12vh;
+    padding: 20px 0px;
     padding-left: 8%;
     padding-right: 8%;
-    margin: 0 auto;
 }
 
 .copyright{
@@ -635,9 +567,20 @@ footer{
 }
 
 
-
-@media screen and (max-width: 640px) {
+/* Début des médias querry */
+@media screen and (max-width: 700px) {
     .hero nav ul li{
         display: none;
+    }
+    .container-first{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .copyright{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
