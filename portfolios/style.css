@@ -374,7 +374,7 @@ h6{
     border-radius: 0.35em;
 }
 
-.container{f
+.container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -436,7 +436,7 @@ h6{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background: rgb(0,0,0,0.7)url(./img/me.jpg);
+    background: rgb(0,0,0,0.7) url(./img/me.jpg);
     background-blend-mode: darken;
     background-attachment: fixed;
     background-size: cover;
