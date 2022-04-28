@@ -234,7 +234,7 @@ button:hover{
 
 .title  h2{
     color: #191919;
-    font-size: 75px;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -317,6 +317,7 @@ button:hover{
 
 .container{
     display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
@@ -579,8 +580,14 @@ footer{
         padding-left: 8%;
         padding-right: 8%;
     }
+    h2{
+        font-size: 1.5em;
+    }
     .copyright{
         display: flex;
         flex-wrap: wrap;
+    }
+    footer{
+        font-size: .5em;
     }
 }
