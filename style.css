@@ -561,6 +561,9 @@ footer{
     .hero nav ul li{
         display: none;
     }
+    .logo{
+        font-size: 25px;
+    }
 
     .hero nav i{
         font-size: 2em;
