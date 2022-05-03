@@ -236,8 +236,7 @@ button:hover{
     width: 360px;
     background: #000000;
     margin: 20px;
-    position: relative;
-    overflow: hidden;
+    height: fit-content;
     text-align: center;
 }
 
@@ -247,8 +246,12 @@ button:hover{
     color: #ffffff;
 }
 
+.pra{
+    margin: 20px 0;
+}
+
 .pra img{
-    margin-top: 40px;
+    margin-top: 20px;
     width: 200px;
 }
 
@@ -281,7 +284,7 @@ button:hover{
 
 .niveau{
     max-width: 80%;
-    margin: 50px auto;
+    margin: 80px auto;
 }
 
 .progress-sm{
@@ -449,6 +452,7 @@ i{
 h6{
     font-size: 1.5em;
     margin-left: 0;
+    margin-top: 15px;
     font-weight: 500;
     color: #191919;
 }
@@ -562,7 +566,7 @@ footer{
         display: none;
     }
     .logo{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .hero nav i{
@@ -572,7 +576,7 @@ footer{
 
     h1{
         color: rgb(41, 41, 41);
-        font-size: 3rem;
+        font-size: 1.2rem;
         font-weight: 600;
     }
 
@@ -581,7 +585,7 @@ footer{
     }
 
     h3{
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     h4{
@@ -602,22 +606,22 @@ footer{
 
     .about img{
         height: auto;
-        width: 300px;
+        width: 200px;
     }
 
     .about-text h2{
         text-align: center;
         color: rgb(41, 41, 41);
-        font-size: 3em;
-        margin-bottom: 20px;
+        font-size: 1.4em;
+        margin: 20px 0;
     }
 
     .about-text h5{
         color: rgb(41, 41, 41);
         letter-spacing: 2px;
         text-align: center;
-        font-size: 1.3em;
-        margin-bottom: 25px;
+        font-size: 1.1em;
+        margin-bottom: 15px;
         text-transform: capitalize;
         margin-left: 0px;
     }
@@ -628,7 +632,7 @@ footer{
         text-align: justify;
         line-height: 28px;
         font-size: 14px;
-        margin: 45px 30px;
+        margin: 40px 30px;
     }
 
     .btn{
@@ -663,16 +667,6 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        min-height: 500px;
-    }
-
-    .card{
-        width: 360px;
-        background: #000000;
-        margin: 20px;
-        position: relative;
-        overflow: hidden;
-        text-align: center;
     }
 
     .description{
@@ -695,6 +689,12 @@ footer{
         color: #171515;
         font-size: 1em;
         font-weight: 600;
+    }
+
+    /* Compétences */
+
+    .bar{
+        font-size: 12px;
     }
 
     /* Section Engagez-moi */
