@@ -490,12 +490,14 @@ input{
     padding: 10px;
     border-radius: 0;
     border: 0;
+    outline: none;
     border-bottom: 2px solid rgb(41, 41, 41);
 }
 
 textarea{
     background-color: #F5DF4E;
     border: 0;
+    outline: none;
     border-bottom: 2px solid rgb(41, 41, 41);
 }
 
@@ -770,12 +772,14 @@ footer{
         background-color: #F5DF4E;
         padding: 10px;
         border-radius: 0;
+        outline: none;
         border: 0;
         border-bottom: 2px solid rgb(41, 41, 41);
     }
 
     textarea{
         background-color: #F5DF4E;
+        outline: none;
         border: 0;
         border-bottom: 2px solid rgb(41, 41, 41);
     }
