@@ -227,28 +227,25 @@ button:hover{
 .box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 500px;
+    margin: 0 8%;
+    gap: 1.5rem;
 }
 
-.card{
-    height: 490px;
-    width: 360px;
-    background: #000000;
-    margin: 20px;
-    height: fit-content;
-    text-align: center;
-}
-
-.card i{
+.pra i{
     font-size: 15px;
     margin-left: 10px;
     color: #ffffff;
 }
 
 .pra{
-    margin: 20px 0;
+    margin: 20px;
+    padding-bottom: 30px;
+    flex: 1 0 20rem;
+    background: #252525;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .pra img{
@@ -258,24 +255,27 @@ button:hover{
 
 .description{
     color: white;
-    padding: 10px 40px;
-    font-size: 12px;
-    line-height: 20px;
-    margin-bottom: 15px;
+    padding: 15px 40px;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 25px;
 }
 
-.card .button{
+.pra .button{
     background-color: #F5DF4E;
     color: black;
+    display: inline-block;
+    text-transform: capitalize;
     text-decoration: none;
-    border: 2px solid transparent;
     font-weight: 500;
-    padding: 1px 30px;
-    border-radius: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-top: auto;
     transition: .4s;
 }
 
-.card .button:hover{
+.pra .button:hover{
     background-color: transparent;
     color: white;
     border: 2px solid #F5DF4E;
